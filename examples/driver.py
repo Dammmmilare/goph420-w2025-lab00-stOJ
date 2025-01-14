@@ -1,5 +1,4 @@
 import numpy as np
-
 from goph420_lab00.operators import (
         add,
         multiply,
@@ -8,7 +7,6 @@ from goph420_lab00.operators import (
 def main():
     # test for scalars
     print(f'add(1, 3): {add(1, 3)}')
-
     print(f'multiply(2, 12.): {multiply(2, 12.)}')
     # test for arrays
     A = np.array([[1, 2, 3], [4, 5, 6]])
